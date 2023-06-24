@@ -1,7 +1,8 @@
 import React from 'react'
 import Product from '../products/product'
 import './productList.css'
-import projects from '../data'
+import {projects} from '../data'
+
 
 
 const ProductList = ()=> {

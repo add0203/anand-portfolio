@@ -1,0 +1,9 @@
+icons - https://free3dicon.com/icon/location/
+
+color
+--blue-ncs: #0092CBff;
+--black: #000000ff;
+--pale-azure: #6DD7FEff;
+--black-2: #000000ff;
+--non-photo-blue: #BFF0FFff;
+--azure-web: #F4FEFFff;

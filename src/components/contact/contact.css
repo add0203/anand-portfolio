@@ -1,0 +1,129 @@
+.cont{
+    height: 100vh;
+    position: relative;
+}
+.cont-bg{
+    width: 30px;
+    height: 100vh;
+    background-color: #0092CBff;
+    position: absolute;
+}
+
+.cont-wrapper{
+    display: flex;
+    padding:50px;
+}
+.cont-left{
+    flex: 1;
+
+}
+
+.cont-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.cont-title{
+    font-size: 80px;
+    width: 90%;
+}
+
+.cont-info-item{
+    display: flex;
+    align-items: center;
+    /* trbl */
+    margin: 50px 0px;
+    font-weight: 400;
+    width: 70%;
+}
+.cont-icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.cont-desc{
+    font-size: 25px;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+
+form{
+    margin: 5px;
+    text-align: left;
+}
+input{
+    width: 60%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 20px 0px;
+    font-size: 16px;
+    background-color: white;
+}
+textarea{
+    width: 100%;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+button{
+    border: none;
+    background-color: #0092CBff;
+    padding: 10px 20px 10px 20px;
+    margin: 15px 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    color: aliceblue;
+    cursor: pointer;
+}
+@media screen and (max-width:480px) {
+    .cont-wrapper {
+        flex-direction: column;
+        margin: 10px;
+        padding: 0px 50px;
+    }
+    .cont-right{
+        padding: 10px 0px;
+    }
+    .cont-desc{
+       font-size: 20px;
+    }
+    .cont-title{
+        font-size: 30px;
+    }
+    .cont-info-item{
+        margin: 20px 0px;
+        width: 100%;
+    }
+    .cont-icon{
+        width: 25px;
+        height: 25px;
+    }
+
+    input{
+        width: 100%;
+        height: 30px;
+        margin: 6px 0px ;
+    }
+    textarea{
+        margin: 6px 0px;
+    }
+     
+    button{
+        padding: 5px 10px 5px 10px;
+       margin: 15px 0px;
+       align-items: center;
+       justify-content: center;
+       font-size: 18px;
+    }
+    form{
+        display: flex;
+        flex-wrap: wrap
+    }
+}

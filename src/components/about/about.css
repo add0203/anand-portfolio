@@ -23,7 +23,7 @@
     justify-content: center;
 }
 .author{
-    font-style: 10px;
+    font-size: 10px;
 }
 .about-card{ 
     width: 60%;
@@ -62,13 +62,13 @@
     /* TRBL */
     /* padding: 6px 0px 6px 0px; */
     margin: 6px 12px;
-    /* font-weight: bold; */
+    font-weight: 400;
 }
 .about-sub{
     /* TRBL */
     margin: 6px 12px;
     /* padding: 6px 0px 6px 0px; */
-    font-weight: 400;
+    font-weight: 500;
 }
 .about-img-title{
     margin-top: 15px;
@@ -76,4 +76,40 @@
 .about-img-desc{
     margin-top: 5px;
     
+}
+
+@media screen and (max-width:480px){
+    .about{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .about-card{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .about-right{
+        padding: 30px 0px;
+    }
+    .about-card.bg, .about-image{
+        display: none;
+    }
+    
+    .about-desc{
+        font-size: 15px;
+        text-align: left;
+        padding: 30px 0px;
+    }
+
+    .about-left{
+        flex-direction: column;
+    }
+    .about-title{
+        font-size: 35px;
+        font-weight: 500;
+    }
 }
