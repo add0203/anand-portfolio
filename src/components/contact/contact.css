@@ -82,11 +82,21 @@ button{
     color: aliceblue;
     cursor: pointer;
 }
+.footer{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 70px;
+    font-weight: 500;
+    background-color: lightgray;
+    padding: 5px;
+
+}
 @media screen and (max-width:480px) {
     .cont-wrapper {
         flex-direction: column;
         margin: 10px;
-        padding: 0px 50px;
+     
+        padding: 5px 50px 0px; 
     }
     .cont-right{
         padding: 10px 0px;
@@ -126,4 +136,20 @@ button{
         display: flex;
         flex-wrap: wrap
     }
+    .footer {
+        margin-top: 0px;
+            font-size: 10px;
+            text-align: center;
+            /* margin-top: 70px; */
+            font-weight: 500;
+            color: white;
+            background-color: black;
+            padding: 5px;
+        }
+    .cont-bg {
+                    width: 20px;
+                    height: 100vh;
+                    background-color: #0092CBff;
+                    position: absolute;
+     }
 }
