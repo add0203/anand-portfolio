@@ -2,6 +2,9 @@ import './contact.css'
 import contactIcon from "../../img/contact.png" 
 import locationIcon from "../../img/location.png" 
 import emailIcon from "../../img/email.png" 
+import instagramIcon from "../../img/instagram.png" 
+import githubIcon from "../../img/github.png" 
+import linkedinIcon from "../../img/linkedin.png" 
 import emailjs from '@emailjs/browser';
 import { useContext, useRef, useState } from 'react'
 import { ThemeContext } from '../../context';
@@ -42,9 +45,21 @@ const Contact=()=> {
                     <img src={emailIcon} alt="" className="cont-icon" />
                        ananddhardwivedi05@gmail.com
                 </div>
-                 <div className="cont-info-item">
+                <div className="cont-info-item">
                     <img src={locationIcon} alt="" className="cont-icon" />
                        Assi-Ghat, Varanasi-UP-221005
+                </div>
+                <div className="cont-info-item">
+                    <img src={githubIcon} alt="" className="cont-icon" />
+                       <a style={{color:darkMode ? "white" : "black"}} href='https://github.com/add0203'>Git Hub</a>
+                </div>
+                <div className="cont-info-item">
+                    <img src={linkedinIcon} alt="" className="cont-icon" />
+                       <a style={{color:darkMode ? "white" : "black"}} href='https://www.linkedin.com/in/anand-dhar-dwivedi-90662b248'>LinkedIn</a>
+                </div>
+                <div className="cont-info-item">
+                    <img src={instagramIcon} alt="" className="cont-icon" />
+                       <a style={{color:darkMode ? "white" : "black"}} href='https://www.instagram.com/anand_aka_add_2/?hl=en'>Photography & Videography</a>
                 </div>
                 </div>
         </div>
@@ -56,16 +71,15 @@ const Contact=()=> {
             <input style={{backgroundColor : darkMode && "#333" ,color:darkMode ? "white" : "black"}} type="email" placeholder='Email' name="user_email" required/>
             <textarea style={{backgroundColor : darkMode && "#333" ,color:darkMode ? "white" : "black"}} placeholder="Message" name="message" rows="5" required></textarea>
             <button>Submit</button>
+            <br></br>
             {done && "  Email Send, Thank You 😊"}
             </form>
         </div>
     </div>
-    {/* <div style={{backgroundColor : darkMode && "#333" ,color:darkMode ? "white" : "black"}} className="footer">
-       Copyright ©️  2023 - anand_dhar_dwivedi   </div> */}
        <footer>
 	<p>
 		Created with ❤️ by
-		 anand_dhar_dwivedi - Copyright ©️  2023
+		 Anand Dhar Dwivedi - Copyright ©️  2023
 		
 	</p>
 </footer>
