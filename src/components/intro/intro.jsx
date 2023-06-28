@@ -20,7 +20,8 @@ const Intro = () => {
                 </div>
             </div>
             <div className="intro-desc">
-                Looking forward to work in development, as i have experience of 3 month internship in Node.js , react.js and CSS.  
+                Looking forward to work in development, as i have experience of
+                3 month internship in Node.js, React.js and CSS.  
             </div>
 
             </div>

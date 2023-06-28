@@ -88,7 +88,8 @@ ul{
 }
 .about-desc{
     overflow: scroll;
-    scroll-behavior: auto;
+    /* overflow: hidden; */
+    scrollbar-width: none;
     height: 50%;
 }
 
