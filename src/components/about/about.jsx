@@ -15,16 +15,21 @@ const About=()=> {
       <div className="about-right">
         <h1 className="about-title">About Me</h1>
         <h3 className="about-sub">
-        Diploma & Voluntary Engagements
+        Projects, Diploma & Voluntary Engagements
         </h3>
         <p className="about-desc">
             <ul type=''>
-                <li>Faculty of Performing Arts, BHU( Diploma )- 3 Year - 2016-2019</li>   
-                <li>Graphics Work ( Voluntary ) - 2019</li>   
-                <li>Mahindra Kabira Festival - ( Voluntary ) - 12 Days - 2021 & 2022</li>   
-                <li>NCC AIR WING - 2020 to 2023 ( Voluntary ) - 3 Year - 2020-2023</li>   
-                <li>Intership : Back-End - Node.js - 3 month - 2023</li>   
-                <li>Project : WEB CHAT APPLICATOIN - Working on - 2023</li>   
+                <li><b>[Project]</b></li>  
+                {/* <em>[2023]</em><br></br>WEB CHAT APPLICATOIN - Working on<br></br> */}
+                <em>[2023]</em><br></br>Social Media BackEnd - Node.js<br></br>
+                <li><b>[Internship]</b></li>
+                <em>[2023]</em><br></br>Back-End Developer - Node.js - 3 month
+                <li><b>[Diploma & Voluntary]</b></li>
+                <em>[2020-2023]</em><br></br>NCC AIR WING - C-cert Holder - 3 Year<br></br>
+                AIVSC (National Level Camp) Certificate Holder<br></br>
+                <em>[2021 & 2022]</em><br></br>Mahindra Kabira Festival - ( Voluntary ) - 12 Days<br></br>
+                <em>[2019]</em><br></br>Graphic Designer - ( Voluntary )<br></br>
+                <em>[2016-2019]</em><br></br>Faculty of Performing Arts, BHU - ( Diploma ) - 3 Year 
             <br></br>
             </ul>
         </p>
@@ -32,7 +37,7 @@ const About=()=> {
             <img src={avatar} alt="" className="about-avatar" />
             <div className="about-img-text">
             <h4 className="about-img-title">Currently in Final Year of BCA</h4>
-            <p className="about-img-desc">from Mahatma Gandhi Kashi Vidhyapeeth - Varanasi - UP </p>
+            <p className="about-img-desc">from Mahatma Gandhi Kashi Vidhyapeeth - Varanasi - UP</p>
             </div>
         </div>
       </div>

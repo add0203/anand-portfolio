@@ -19,7 +19,7 @@
 .about-right{
     flex:1;
     /* background-color: grey; */
-    height: 40%;
+    height: 80%;
     justify-content: center;
 }
 .author{
@@ -35,7 +35,7 @@
 .about-card.bg{
     background-color: #0092CBff;
     position: absolute;
-    top: 75px;
+    top: 92px;
     left: 100px;
 }
 
@@ -61,21 +61,34 @@
 .about-title{
     /* TRBL */
     /* padding: 6px 0px 6px 0px; */
-    margin: 6px 12px;
-    font-weight: 400;
+    margin: 20px 12px;
+    font-weight: 600;
 }
+
 .about-sub{
     /* TRBL */
-    margin: 6px 12px;
+    margin: 10px 12px;
     /* padding: 6px 0px 6px 0px; */
     font-weight: 500;
 }
+.about-img-text{
+    font-size: 15px;
+}
 .about-img-title{
-    margin-top: 15px;
+    margin-top: 5px;
 }
 .about-img-desc{
-    margin-top: 5px;
-    
+    margin-top: 5px;  
+}
+ul{
+    font-size: 15px;
+    padding: 10px 20px;
+    line-height: 1.5;
+}
+.about-desc{
+    overflow: scroll;
+    scroll-behavior: auto;
+    height: 50%;
 }
 
 @media screen and (max-width:480px){
@@ -102,9 +115,12 @@
     .about-desc{
         font-size: 15px;
         text-align: left;
-        padding: 30px 0px;
+        padding: 10px 0px;
+        overflow: scroll;
+        scroll-behavior: auto;
+        height: 35%;
     }
-
+    
     .about-left{
         flex-direction: column;
     }

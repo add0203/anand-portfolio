@@ -20,11 +20,7 @@ const Intro = () => {
                 </div>
             </div>
             <div className="intro-desc">
-                Aspiring for a career that brings higher inspired living which
-shall result out of my effort. Also looking forward towards a
-mutual growth and benefit of the esteemed company and self.
-Eager to obtain a challenging position at a company that will 
-expand my learning and build upon my developer skills.
+                Looking forward to work in development, as i have experience of 3 month internship in Node.js , react.js and CSS.  
             </div>
 
             </div>

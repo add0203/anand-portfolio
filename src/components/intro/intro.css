@@ -23,6 +23,9 @@
 
 }
 
+.intro-desc{
+    font-size: 20px;
+}
 .intro-intro{
     font-size: 30px;
     font-weight: 400;
@@ -96,4 +99,7 @@
         font-size:50px;
 
     }
+        .intro-desc {
+            font-size: 17px;
+        }
 }

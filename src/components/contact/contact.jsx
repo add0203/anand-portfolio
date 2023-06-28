@@ -51,17 +51,24 @@ const Contact=()=> {
         <div className="cont-right">
             <p className="cont-desc">I appreciate your interest and look forward to hearing from you. <b>what do you Say?</b> </p>
             <form ref={formRef} onSubmit={handleSubmit}>
-            <input style={{backgroundColor : darkMode && "#333" }} type="text" placeholder='Name' name="user_name" required/>
-            <input style={{backgroundColor : darkMode && "#333" }} type="text" placeholder='Subject' name="user_subject" required/>
-            <input style={{backgroundColor : darkMode && "#333" }} type="email" placeholder='Email' name="user_email" required/>
-            <textarea style={{backgroundColor : darkMode && "#333" }} placeholder="Message" name="message" rows="5" required></textarea>
+            <input style={{backgroundColor : darkMode && "#333" ,color:darkMode ? "white" : "black"}} type="text" placeholder='Name' name="user_name" required/>
+            <input style={{backgroundColor : darkMode && "#333" ,color:darkMode ? "white" : "black"}} type="text" placeholder='Subject' name="user_subject" required/>
+            <input style={{backgroundColor : darkMode && "#333" ,color:darkMode ? "white" : "black"}} type="email" placeholder='Email' name="user_email" required/>
+            <textarea style={{backgroundColor : darkMode && "#333" ,color:darkMode ? "white" : "black"}} placeholder="Message" name="message" rows="5" required></textarea>
             <button>Submit</button>
             {done && "  Email Send, Thank You 😊"}
             </form>
         </div>
     </div>
-    <div style={{backgroundColor : darkMode && "#333" }} className="footer">
-       Copyright ©️  2023 - anand_dhar_dwivedi   </div>
+    {/* <div style={{backgroundColor : darkMode && "#333" ,color:darkMode ? "white" : "black"}} className="footer">
+       Copyright ©️  2023 - anand_dhar_dwivedi   </div> */}
+       <footer>
+	<p>
+		Created with ❤️ by
+		 anand_dhar_dwivedi - Copyright ©️  2023
+		
+	</p>
+</footer>
 </div>
 )
 }
