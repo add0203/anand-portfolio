@@ -1,0 +1,27 @@
+button{
+    background-color: transparent;
+    border-color: #0092CBff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+button:hover{
+    background-color: #0092CBff;
+    border-color: none;
+    color: white;
+}
+
+
+@media screen and (max-width:480px) {
+   button {
+       padding: 10px 20px;
+       margin: 10px 0px;
+       align-items: center;
+       justify-content: center;
+       font-size: 18px;
+   }
+}

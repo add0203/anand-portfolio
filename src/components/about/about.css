@@ -1,133 +1,144 @@
-.about{
-    height: 100vh;
-    padding: 0px 30px;
-    display: flex;
-    align-items: center;
-    /* background-color: #BFF0FFff; */
+.about {
+  height: 100vh;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  /* background-color: #BFF0FFff; */
 }
 
-.about-left{
-    flex: 1;
-    position: relative;
-    display: flex;
+.about-left {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  /* background-color: aqua; */
+}
+.about-right {
+  flex: 1;
+  /* background-color: grey; */
+  height: 80%;
+  justify-content: center;
+}
+.author {
+  font-size: 10px;
+}
+.about-card {
+  width: 60%;
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-card.bg {
+  background-color: #0092cbff;
+  border-radius: 5px;
+  position: absolute;
+  top: 92px;
+  left: 100px;
+}
+
+.about-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-avatar {
+  width: 80px;
+  height: 80px;
+  padding: 6px;
+}
+
+.about-image {
+  padding: 6px 0px 6px 0px;
+  /* margin: 60px 0px; */
+  display: flex;
+  align-items: center;
+}
+
+.about-title {
+  /* TRBL */
+  /* padding: 6px 0px 6px 0px; */
+  margin: 20px 12px;
+  font-weight: 500;
+}
+
+.about-sub {
+  /* TRBL */
+  margin: 10px 12px;
+  /* padding: 6px 0px 6px 0px; */
+  font-weight: 500;
+}
+.about-img-text {
+  font-size: 15px;
+}
+.about-img-title {
+  margin-top: 5px;
+}
+.about-img-desc {
+  margin-top: 5px;
+}
+ul {
+  font-size: 15px;
+  padding: 10px 20px;
+  line-height: 1.5;
+}
+.about-desc {
+  overflow: scroll;
+  /* overflow: hidden; */
+  scrollbar-width: none;
+  height: 50%;
+}
+
+.imageSlider {
+  height: 511px;
+  width: 414px;
+  margin: "0 auto";
+}
+@media screen and (max-width: 480px) {
+  .about {
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100%;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .about-card {
     width: 100%;
-    /* background-color: aqua; */
-}
-.about-right{
-    flex:1;
-    /* background-color: grey; */
-    height: 80%;
-    justify-content: center;
-}
-.author{
-    font-size: 10px;
-}
-.about-card{ 
-    width: 60%;
-    height: 70vh;
-    position: relative;
-    overflow: hidden;
-}
+    border-radius: 10px;
+  }
 
-.about-card.bg{
-    background-color: #0092CBff;
-    position: absolute;
-    top: 92px;
-    left: 100px;
-}
+  .about-right {
+    padding: 30px 0px;
+  }
+  .about-card.bg,
+  .about-image {
+    display: none;
+  }
 
-.about-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.about-avatar{
-    width: 80px;
-    height: 80px;
-    padding: 6px;
-}
-
-.about-image{
-    padding: 6px 0px 6px 0px;
-    /* margin: 60px 0px; */
-    display: flex;
-    align-items: center;
-}
-
-.about-title{
-    /* TRBL */
-    /* padding: 6px 0px 6px 0px; */
-    margin: 20px 12px;
-    font-weight: 500;
-    
-}
-
-.about-sub{
-    /* TRBL */
-    margin: 10px 12px;
-    /* padding: 6px 0px 6px 0px; */
-    font-weight: 500;
-}
-.about-img-text{
+  .about-desc {
     font-size: 15px;
-}
-.about-img-title{
-    margin-top: 5px;
-}
-.about-img-desc{
-    margin-top: 5px;  
-}
-ul{
-    font-size: 15px;
-    padding: 10px 20px;
-    line-height: 1.5;
-}
-.about-desc{
+    text-align: left;
+    padding: 10px 0px;
     overflow: scroll;
-    /* overflow: hidden; */
-    scrollbar-width: none;
-    height: 50%;
-}
+    scroll-behavior: auto;
+    height: 35%;
+  }
 
-@media screen and (max-width:480px){
-    .about{
-        flex-direction: column;
-        align-items: center;
-        margin-top: 50px;
-        padding: 30px;
-        text-align: center;
-    }
-
-    .about-card{
-        width: 100%;
-        border-radius: 10px;
-    }
-
-    .about-right{
-        padding: 30px 0px;
-    }
-    .about-card.bg, .about-image{
-        display: none;
-    }
-    
-    .about-desc{
-        font-size: 15px;
-        text-align: left;
-        padding: 10px 0px;
-        overflow: scroll;
-        scroll-behavior: auto;
-        height: 35%;
-    }
-    
-    .about-left{
-        flex-direction: column;
-    }
-    .about-title{
-        font-size: 35px;
-        font-weight: 500;
-    }
+  .about-left {
+    flex-direction: column;
+  }
+  .about-title {
+    font-size: 35px;
+    font-weight: 500;
+  }
+  .imageSlider {
+    height: 511px;
+    width: 315px;
+    margin: "0 auto";
+  }
 }

@@ -1,4 +1,5 @@
 import './contact.css'
+import '../../button.css'
 import contactIcon from "../../img/contact.png" 
 import locationIcon from "../../img/location.png" 
 import emailIcon from "../../img/email.png" 
@@ -8,6 +9,7 @@ import linkedinIcon from "../../img/linkedin.png"
 import emailjs from '@emailjs/browser';
 import { useContext, useRef, useState } from 'react'
 import { ThemeContext } from '../../context';
+// require("dotenv").config();
 
 
 const Contact=()=> {
@@ -20,6 +22,8 @@ const Contact=()=> {
     // prevent submit button to reload the page
     e.preventDefault();
     // Emialjs
+    // console.log(process.env.YOUR_SERVICE_ID);
+    // emailjs.sendForm(process.env.YOUR_SERVICE_ID, 'template_5j65og4', formRef.current, 'l91YPoURyLZukp-DP')
     emailjs.sendForm('service_9yd6y2k', 'template_5j65og4', formRef.current, 'l91YPoURyLZukp-DP')
       .then((result) => {
           console.log(result.text);
@@ -70,7 +74,7 @@ const Contact=()=> {
             <input style={{backgroundColor : darkMode && "#333" ,color:darkMode ? "white" : "black"}} type="text" placeholder='Subject' name="user_subject" required/>
             <input style={{backgroundColor : darkMode && "#333" ,color:darkMode ? "white" : "black"}} type="email" placeholder='Email' name="user_email" required/>
             <textarea style={{backgroundColor : darkMode && "#333" ,color:darkMode ? "white" : "black"}} placeholder="Message" name="message" rows="5" required></textarea>
-            <button>Submit</button>
+            <button style={{backgroundColor : darkMode && "#333" ,color:darkMode ? "white" : "black"}}>Submit</button>
             <br></br>
             {done && "  Email Send, Thank You 😊"}
             </form>

@@ -2,10 +2,14 @@ import { useContext } from "react";
 import About from "./components/about/about";
 import Contact from "./components/contact/contact";
 import Intro from "./components/intro/intro";
-import ProductList from "./components/productList/productList";
+
 import Toggle from "./components/toggle/toggle";
 import { ThemeContext } from "./context";
+import Navbar from "./components/navbar/navbar";
+import Preloader from "./components/preloader/preloader";
+import ProjectList from "./components/projectList/projectList";
 
+// require("dotenv").config();
 
 const App = () => {
   const theme = useContext(ThemeContext)
@@ -13,10 +17,12 @@ const App = () => {
   
   return (
   <div style={{backgroundColor:darkMode?"black":"white", color :darkMode ? "white" : "black"}} >
+    <Preloader/>
     <Toggle/>
+    {/* <Navbar/> */}
     <Intro/>
     <About/>
-    <ProductList/>
+    <ProjectList/>
     <Contact/>
   </div>);
 };
