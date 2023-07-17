@@ -29,7 +29,7 @@ export const slides = [
 export const projects = [
   {
     id: 1,
-    link: "https://github.com/add0203/socialMedia-backend.git",
+    link: "https://github.com/add0203/socialmedia_backend.git",
     img: nodeimg,
   },
   {
