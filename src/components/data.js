@@ -53,3 +53,13 @@ export const projects = [
     img: portfolio,
   },
 ];
+export const RoughData = [
+  {
+    id: 1,
+    mess: "its not ok yet",
+  },
+  {
+    id: 2,
+    mess: "its not ok",
+  },
+];

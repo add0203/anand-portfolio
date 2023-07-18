@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from "../../context";
 import "./intro.css";
 import me from "../../img/me2.png";
+const URL = "http://localhost:3000/anand_resume.pdf";
 
 const Intro = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
+  const downloadFileAtURL = (url) => {
+    const fileName = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  };
+
   return (
     <div>
       <div className="intro">
@@ -22,6 +37,19 @@ const Intro = () => {
             <div className="intro-desc">
               Looking forward to work in development, as i have experience of 3
               month internship in Node.js, React.js and CSS.
+              <br></br>
+              <button
+                style={{
+                  backgroundColor: darkMode && "#333",
+                  color: darkMode ? "white" : "black",
+                }}
+                className="cv-button"
+                onClick={() => {
+                  downloadFileAtURL(URL);
+                }}
+              >
+                C V
+              </button>
             </div>
           </div>
         </div>

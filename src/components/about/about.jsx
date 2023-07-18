@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-
 import avatar from "../../img/avatar.png";
 import ImageSlider from "../imageSlider/imageSlider";
 import { slides } from "../data";
