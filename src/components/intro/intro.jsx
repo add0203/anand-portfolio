@@ -49,6 +49,7 @@ const Intro = () => {
                   color: darkMode ? "white" : "black",
                 }}
                 className="cv-button"
+                formTarget="new"
                 onClick={() => {
                   downloadFileAtURL(URL);
                 }}
