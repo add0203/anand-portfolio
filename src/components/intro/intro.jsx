@@ -2,14 +2,19 @@ import React, { useContext } from "react";
 import { ThemeContext } from "../../context";
 import "./intro.css";
 import me from "../../img/me2.png";
-const URL = "http://localhost:3000/anand_resume.pdf";
+// const URL = "http://localhost:3000/anand_resume.pdf";
+const URL =
+  "https://drive.google.com/file/d/1dh86ZK60Pr5PWaxLfyH9WL1ikqhL9ERa/view?usp=sharing";
+
+// https://drive.google.com/file/d/1dh86ZK60Pr5PWaxLfyH9WL1ikqhL9ERa/view?usp=sharing
 
 const Intro = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
 
   const downloadFileAtURL = (url) => {
-    const fileName = url.split("/").pop();
+    // const fileName = url.split("/").pop();
+    const fileName = url;
     const aTag = document.createElement("a");
     aTag.href = url;
     aTag.setAttribute("download", fileName);
