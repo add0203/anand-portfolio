@@ -11,7 +11,7 @@ const ProjectList = ()=> {
       <div className="prolist">
         <div className="prolist-text">
             <h1 className="prolist-title">Projects</h1>
-            <p className="prolist-decs">All of the project mentioned are completed in my learning phase, and there is room for improvments.</p>
+            <p className="prolist-decs">All of the project mentioned are completed in my learning phase, and there is room for improvement.</p>
         </div>
       <div className="prolist-list">
         {projects.map((item)=>(
