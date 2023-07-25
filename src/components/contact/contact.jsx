@@ -12,6 +12,29 @@ import { ThemeContext } from "../../context";
 // require("dotenv").config();
 
 const Contact = () => {
+  <style>
+    .pushable {
+    background: hsl(340deg 100% 32%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+  }
+  .front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(345deg 100% 47%);
+    color: white;
+    transform: translateY(-6px);
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+              }
+</style>
   const formRef = useRef();
   const [done, setDone] = useState(false);
   const theme = useContext(ThemeContext);
@@ -134,35 +157,13 @@ const Contact = () => {
               rows="5"
               required
             ></textarea>
-            <style>
-  
-</style>
+            
 
 <button class="pushable" 
   style={{
                // backgroundColor: darkMode && "#333",
                // color: darkMode ? "white" : "black",
-  .pushable {
-    background: hsl(340deg 100% 32%);
-    border-radius: 12px;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    outline-offset: 4px;
-  }
-  .front {
-    display: block;
-    padding: 12px 42px;
-    border-radius: 12px;
-    font-size: 1.25rem;
-    background: hsl(345deg 100% 47%);
-    color: white;
-    transform: translateY(-6px);
-  }
-
-  .pushable:active .front {
-    transform: translateY(-2px);
-            }} }>
+} }>
   <span class="front">
     Submit
   </span>
