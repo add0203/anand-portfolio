@@ -134,14 +134,47 @@ const Contact = () => {
               rows="5"
               required
             ></textarea>
-            <button
+            <style>
+  
+</style>
+
+<button class="pushable" 
+  style={{
+               // backgroundColor: darkMode && "#333",
+               // color: darkMode ? "white" : "black",
+  .pushable {
+    background: hsl(340deg 100% 32%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+  }
+  .front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(345deg 100% 47%);
+    color: white;
+    transform: translateY(-6px);
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+            }} }>
+  <span class="front">
+    Submit
+  </span>
+</button>
+           /* <button
               style={{
                 backgroundColor: darkMode && "#333",
                 color: darkMode ? "white" : "black",
               }}
             >
               Submit
-            </button>
+            </button>*/
             <br></br>
             {done && "  Email Send, Thank You 😊"}
           </form>
