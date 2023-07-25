@@ -3,11 +3,11 @@ import { ThemeContext } from "../../context";
 import "./intro.css";
 import me from "../../img/me2.png";
 // const URL = "http://localhost:3000/anand_resume.pdf";
-const URL =
-  "https://drive.google.com/file/d/1dh86ZK60Pr5PWaxLfyH9WL1ikqhL9ERa/view?usp=sharing";
+//const URL =
+  //"https://drive.google.com/file/d/1dh86ZK60Pr5PWaxLfyH9WL1ikqhL9ERa/view?usp=sharing";
 
 // https://drive.google.com/file/d/1dh86ZK60Pr5PWaxLfyH9WL1ikqhL9ERa/view?usp=sharing
-
+const URL = "../../anand_resume.pdf";
 const Intro = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
