@@ -157,7 +157,7 @@ const Contact = () => {
               rows="5"
               required
             ></textarea>
-            
+    /*        
 
 <button class="pushable" 
   style={{
@@ -167,15 +167,15 @@ const Contact = () => {
   <span class="front">
     Submit
   </span>
-</button>
-           /* <button
+</button>*/
+           <button
               style={{
                 backgroundColor: darkMode && "#333",
                 color: darkMode ? "white" : "black",
               }}
             >
               Submit
-            </button>*/
+            </button>
             <br></br>
             {done && "  Email Send, Thank You 😊"}
           </form>
