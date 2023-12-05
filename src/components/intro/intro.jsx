@@ -7,7 +7,7 @@ import me from "../../img/me2.png";
   //"https://drive.google.com/file/d/1dh86ZK60Pr5PWaxLfyH9WL1ikqhL9ERa/view?usp=sharing";
 
 // https://drive.google.com/file/d/1dh86ZK60Pr5PWaxLfyH9WL1ikqhL9ERa/view?usp=sharing
-const URL = "../../anand_resume.pdf";
+const URL = "../../anand_dhar_dwivedi_dec_update_resume.pdf";
 const Intro = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
