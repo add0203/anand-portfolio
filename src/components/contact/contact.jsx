@@ -13,7 +13,7 @@ import { ThemeContext } from "../../context";
 
 const Contact = () => {
   <style>
-     {`
+{/*      {`
           .pushable {
             background: hsl(340deg 100% 32%);
             border-radius: 12px;
@@ -36,7 +36,7 @@ const Contact = () => {
           .pushable:active .front {
             transform: translateY(-2px);
           }
-        `}
+        `} */}
 {/*     .pushable {
     background: hsl(340deg 100% 32%);
     border-radius: 12px;
