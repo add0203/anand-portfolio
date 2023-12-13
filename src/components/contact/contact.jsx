@@ -181,17 +181,7 @@ const Contact = () => {
               rows="5"
               required
             ></textarea>
-    /*        
-
-<button class="pushable" 
-  style={{
-               // backgroundColor: darkMode && "#333",
-               // color: darkMode ? "white" : "black",
-} }>
-  <span class="front">
-    Submit
-  </span>
-</button>*/
+   
            <button
               style={{
                 backgroundColor: darkMode && "#333",
