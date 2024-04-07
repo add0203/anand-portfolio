@@ -167,7 +167,7 @@ const About = () => {
                   Implement JWT authentication for user authentication. <br />
                   Socket.IO for real-time communication features.
                 </p>
-                <a href="GitHub_Link" className="project-link">
+                <a href="https://github.com/add0203/web_chatapp.git" className="project-link">
                   View in GitHub
                 </a>
               </li>
@@ -183,7 +183,7 @@ const About = () => {
                   bcryptjs for password hashing, JSON web token for JWT
                   authentication, nodemailer for sending emails.
                 </p>
-                <a href="GitHub_Link" className="project-link">
+                <a href="https://github.com/add0203/User-authentication-api" className="project-link">
                   View in GitHub
                 </a>
               </li>
@@ -195,7 +195,7 @@ const About = () => {
                 <h3 className="achievement-title">
                   UI/UX Bootcamp Certificate (3 Days)
                 </h3>
-                <a href="Credential_Link" className="credential-link">
+                <a href="https://drive.google.com/file/d/1sdmbivs_HsIHhIMqxqxiax4iMC1fC_3w/view" className="credential-link">
                   View Credentials
                 </a>
               </li>
@@ -204,7 +204,7 @@ const About = () => {
                 <h3 className="achievement-title">
                   Certificate of Excellence (2nd position - Codelock 3.0)
                 </h3>
-                <a href="Credential_Link" className="credential-link">
+                <a href="https://drive.google.com/file/d/1pkgMdXfmMS3RdeHgpjrYsreLBmWCjsAP/view" className="credential-link">
                   View Credentials
                 </a>
               </li>
@@ -213,7 +213,7 @@ const About = () => {
                 <h3 className="achievement-title">
                   NCC C-Certificate Holder (7 UP AIR SQN NCC - BHU, AIVSC 2022)
                 </h3>
-                <a href="Credential_Link" className="credential-link">
+                <a href="https://drive.google.com/file/d/13Uelh_Z0KFC3cApaVV-vWY7FP7deEzkW/view?usp=sharing" className="credential-link">
                   View Credentials
                 </a>
               </li>
@@ -222,7 +222,7 @@ const About = () => {
                 <h3 className="achievement-title">
                   Lead Volunteer - Mahindra Kabira Festival (2021 & 2022)
                 </h3>
-                <a href="Credential_Link" className="credential-link">
+                <a href="https://drive.google.com/file/d/1xMTkXWKKVc7R4IrVIDnwKCIIiSoltdUF/view?usp=sharing" className="credential-link">
                   View Credentials
                 </a>
               </li>
