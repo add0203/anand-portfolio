@@ -3,7 +3,6 @@
   padding: 0px 30px;
   display: flex;
   align-items: center;
-  /* background-color: #BFF0FFff; */
 }
 
 .about-left {
@@ -14,17 +13,18 @@
   justify-content: center;
   height: 100%;
   width: 100%;
-  /* background-color: aqua; */
 }
+
 .about-right {
   flex: 1;
-  /* background-color: grey; */
   height: 80%;
   justify-content: center;
 }
+
 .author {
   font-size: 10px;
 }
+
 .about-card {
   width: 60%;
   height: 70vh;
@@ -54,43 +54,43 @@
 
 .about-image {
   padding: 6px 0px 6px 0px;
-  /* margin: 60px 0px; */
   display: flex;
   align-items: center;
 }
 
 .about-title {
-  /* TRBL */
-  /* padding: 6px 0px 6px 0px; */
   margin: 20px 12px;
   font-weight: 500;
 }
 
 .about-sub {
-  /* TRBL */
   margin: 10px 12px;
-  /* padding: 6px 0px 6px 0px; */
   font-weight: 500;
 }
+
 .about-img-text {
   font-size: 15px;
 }
+
 .about-img-title {
   margin-top: 5px;
 }
+
 .about-img-desc {
   margin-top: 5px;
 }
+
 ul {
   font-size: 15px;
   padding: 10px 20px;
   line-height: 1.5;
 }
+
 .about-desc {
   overflow: scroll;
-  /* overflow: hidden; */
-  scrollbar-width: none;
-  height: 60%;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  height: 65%;
 }
 
 .imageSlider {
@@ -98,6 +98,7 @@ ul {
   width: 414px;
   margin: "0 auto";
 }
+
 @media screen and (max-width: 480px) {
   .about {
     flex-direction: column;
@@ -115,6 +116,7 @@ ul {
   .about-right {
     padding: 30px 0px;
   }
+
   .about-card.bg,
   .about-image {
     display: none;
@@ -132,10 +134,12 @@ ul {
   .about-left {
     flex-direction: column;
   }
+
   .about-title {
     font-size: 35px;
     font-weight: 500;
   }
+
   .imageSlider {
     height: 511px;
     width: 315px;
