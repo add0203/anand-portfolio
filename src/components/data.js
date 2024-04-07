@@ -78,8 +78,8 @@ import node1 from "../img/node1.png";
 import auth from "../img/auth.png";
 import eshop from "../img/eshop.png";
 import movieapi from "../img/movieapi.png";
-import portfolio1 from "../img/portfolio-1.png";
-import portfolio2 from "../img/portfolio-2.png";
+import portfolio1 from "../img/portfolio1.png";
+import portfolio2 from "../img/portfolio2.png";
 // slider image
 
 import img1 from "../img/carousel/1.jpg";
