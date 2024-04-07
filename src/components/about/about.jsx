@@ -133,7 +133,7 @@ const About = () => {
       </div>
       <div className="about-right">
         <h1 className="about-title">About Me</h1>
-        <h3 className="about-sub">Projects, Diploma & Voluntary Engagements</h3>
+{/*         <h3 className="about-sub">Projects, Diploma & Voluntary Engagements</h3> */}
         <p className="about-desc">
           <div className="work-experience">
             <h2 className="section-title">Work Experience</h2>
