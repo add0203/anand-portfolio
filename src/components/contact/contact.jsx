@@ -136,6 +136,8 @@ const Contact = () => {
             ></textarea>
 {/*             changed 07 04 2024 */}
    <br></br>
+             <br></br>
+             <br></br>
            <button
               style={{
                 backgroundColor: darkMode && "#333",
