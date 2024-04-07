@@ -70,15 +70,13 @@
 
 // export default Intro;
 
-
-
 import React, { useContext } from "react";
 import { ThemeContext } from "../../context";
 import "./intro.css";
 import me from "../../img/me2.png";
 // const URL = "http://localhost:3000/anand_resume.pdf";
 //const URL =
-  //"https://drive.google.com/file/d/1dh86ZK60Pr5PWaxLfyH9WL1ikqhL9ERa/view?usp=sharing";
+//"https://drive.google.com/file/d/1dh86ZK60Pr5PWaxLfyH9WL1ikqhL9ERa/view?usp=sharing";
 
 // https://drive.google.com/file/d/1dh86ZK60Pr5PWaxLfyH9WL1ikqhL9ERa/view?usp=sharing
 const URL = "../../anand_dhar_dwivedi_dec_resume_compressed.pdf";
@@ -106,12 +104,10 @@ const Intro = () => {
             <h1 className="intro-name">Anand Dhar Dwivedi</h1>
             <div className="intro-title">
               <div className="intro-title-wrapper">
-              
-                
                 <div className="intro-title-item">Node JS</div>
+                <div className="intro-title-item">Java Script</div>
                 <div className="intro-title-item">HTML</div>
                 <div className="intro-title-item">CSS</div>
-                <div className="intro-title-item">Java Script</div>
                 <div className="intro-title-item">React JS</div>
                 <div className="intro-title-item">UI/UX Designer</div>
                 <div className="intro-title-item">Graphics Designer</div>
