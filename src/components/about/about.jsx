@@ -42,7 +42,75 @@ const About = () => {
         <h1 className="about-title">About Me</h1>
         <h3 className="about-sub">Projects, Diploma & Voluntary Engagements</h3>
         <p className="about-desc">
-          <ul type="">
+          <div className="work-experience">
+  <h2 className="section-title">Work Experience</h2>
+  <div className="experience-item">
+    <h3 className="position">Full Stack Developer Intern</h3>
+    <p className="company">Next-Gen Samvaad | Varanasi, India</p>
+    <p className="duration">Jan 2023 - Apr 2023</p>
+    <p className="description">
+      Onsite Internship in Startup (Next Gen Samvaad)
+      <br />
+      Worked as Full Stack Web Developer on Node, MongoDB, and React.
+      <br />
+      Worked on a Project of Tech Stack (Flutter, Node, and MongoDB). 
+      <br />
+      Developed Secure and Efficient Authorization CRUD APIs.
+      <br />
+      Collaborated with a Team, Tested and Debugged to Ensure the Reliability and Functionality of the Authentication APIs.
+      <br />
+      Integrated APIs with Frontend.
+    </p>
+  </div>
+
+  <h2 className="section-title">Projects</h2>
+  <div className="project-item">
+    <h3 className="project-title">Web Chat Application (Team)</h3>
+    <p className="project-description">
+      Develop a real-time chat app using the MERN stack.
+      <br />
+      Utilise Chakra UI components for the user interface, and Implement JWT authentication for user authentication. 
+      <br />
+      Socket.IO for real-time communication features.
+    </p>
+    <a href="GitHub_Link" className="project-link">View in GitHub</a>
+  </div>
+
+  <div className="project-item">
+    <h3 className="project-title">API on Authorization</h3>
+    <p className="project-description">
+      Developed a NodeJS application to Authenticate user credentials.
+      <br />
+      Allows users to register and log in securely using email and password credentials, and sessions are managed securely for authentication across requests.
+      <br />
+      bcryptjs for password hashing, JSON web token for JWT authentication, nodemailer for sending emails.
+    </p>
+    <a href="GitHub_Link" className="project-link">View in GitHub</a>
+  </div>
+
+  <h2 className="section-title">Certifications & Achievements</h2>
+  <div className="achievement-item">
+    <h3 className="achievement-title">UI/UX Bootcamp Certificate (3 Days)</h3>
+    <a href="Credential_Link" className="credential-link">View Credentials</a>
+  </div>
+
+  <div className="achievement-item">
+    <h3 className="achievement-title">Certificate of Excellence (2nd position - Codelock 3.0)</h3>
+    <a href="Credential_Link" className="credential-link">View Credentials</a>
+  </div>
+
+  <div className="achievement-item">
+    <h3 className="achievement-title">NCC C-Certificate Holder (7 UP AIR SQN NCC - BHU, AIVSC 2022)</h3>
+    <a href="Credential_Link" className="credential-link">View Credentials</a>
+  </div>
+
+  <div className="achievement-item">
+    <h3 className="achievement-title">Lead Volunteer - Mahindra Kabira Festival (2021 & 2022)</h3>
+    <a href="Credential_Link" className="credential-link">View Credentials</a>
+  </div>
+</div>
+
+{/*           <ul type="">
             <li>
               <b>[Project]</b>
             </li>
@@ -67,7 +135,7 @@ const About = () => {
             <em>[2016-2019]</em>
             <br></br>Faculty of Performing Arts, BHU - ( Diploma ) - 3 Year
             <br></br>
-          </ul>
+          </ul> */}
         </p>
         <div className="about-image">
           <img src={avatar} alt="" className="about-avatar" />
