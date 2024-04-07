@@ -67,11 +67,19 @@
 
 
 
-import ui from "../img/ui.png";
-import reactimg from "../img/react.png";
-import nodeimg from "../img/node.png";
-import ui2 from "../img/ui2.png";
-import portfolio from "../img/portfolio.png";
+
+// import ui from "../img/ui.png";
+// import reactimg from "../img/react.png";
+// import nodeimg from "../img/node.png";
+// import ui2 from "../img/ui2.png";
+// import portfolio from "../img/portfolio.png";
+
+import node1 from "../img/node1.png";
+import auth from "../img/auth.png";
+import eshop from "../img/esop.png";
+import movieapi from "../img/movieapi.png";
+import portfolio1 from "../img/portfolio-1.png";
+import portfolio2 from "../img/portfolio-2.png";
 // slider image
 
 import img1 from "../img/carousel/1.jpg";
@@ -100,37 +108,37 @@ export const projects = [
     id: 1,
     name: "Web Chat Application (Team)",
     link: "https://github.com/add0203/web_chatapp.git",
-    img: nodeimg,
+    img: node1,
   },
   {
     id: 2,
     name: "API on Authorization ",
     link: "https://github.com/add0203/User-authentication-api",
-    img: ui,
+    img: auth,
   },
   {
     id: 3,
-    name: "API on Authorization ",
+    name: "Movie search ",
     link: "https://github.com/add0203/movies_api.git",
-    img: reactimg,
+    img: movieapi,
   },
   {
     id: 4,
     name: "backend of the eshop",
     link: "https://github.com/add0203/node-js-backend-.git",
-    img: ui2,
+    img: eshop,
   },
   {
     id: 5,
     name: "Portfolio",
     link: "https://anand-dhar-dwivedi.vercel.app/",
-    img: portfolio,
+    img: portfolio1,
   },
   {
     id: 6,
     name: "Portfolio 2",
     link: "https://anand-dhar-dwivedi.vercel.app/",
-    img: portfolio,
+    img: portfolio2,
   },
 ];
 export const RoughData = [
