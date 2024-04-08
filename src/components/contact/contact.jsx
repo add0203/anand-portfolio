@@ -51,8 +51,8 @@ const Contact = () => {
               <img src={contactIcon} alt="" className="cont-icon" />
               +91-7985582567
             </div>
-            <div className="cont-info-item">
-              <img src={emailIcon} alt="" className="cont-icon" />
+            <div className="cont-info-item" href="mailto:ananddhardwivedi05@gmail.com">
+              <img src={emailIcon}  className="cont-icon" />
               ananddhardwivedi05@gmail.com
             </div>
             <div className="cont-info-item">
