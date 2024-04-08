@@ -52,15 +52,16 @@ const Contact = () => {
               +91-7985582567
             </div>
             <div className="cont-info-item" >
-{/*               <img src={emailIcon}  className="cont-icon" />
-             <a href="mailto:ananddhardwivedi05@gmail.com">ananddhardwivedi05@gmail.com</a> 
-            </div> */}
+              <img src={emailIcon}  className="cont-icon" />
+              {/*    <a href="mailto:ananddhardwivedi05@gmail.com">ananddhardwivedi05@gmail.com</a> */}
+            
               <a
                 style={{ color: darkMode ? "white" : "black" }}
                 href="mailto:ananddhardwivedi05@gmail.com"
               >
                 ananddhardwivedi05@gmail.com
               </a>
+              </div>
             <div className="cont-info-item">
               <img src={locationIcon} alt="" className="cont-icon" />
               Assi-Ghat, Varanasi-UP-221005
