@@ -137,7 +137,7 @@ export const projects = [
   {
     id: 6,
     name: "Portfolio 2",
-    link: "https://anand-dhar-dwivedi.vercel.app/",
+    link: "https://anand-dhar-dwivedi-graphics-port.vercel.app/",
     img: portfolio2,
   },
 ];
