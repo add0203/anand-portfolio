@@ -62,10 +62,10 @@ const Contact = () => {
                 ananddhardwivedi05@gmail.com
               </a>
               </div>
-            <div className="cont-info-item">
+{/*             <div className="cont-info-item">
               <img src={locationIcon} alt="" className="cont-icon" />
               Assi-Ghat, Varanasi-UP-221005
-            </div>
+            </div> */}
             <div className="cont-info-item">
               <img src={githubIcon} alt="" className="cont-icon" />
               <a
