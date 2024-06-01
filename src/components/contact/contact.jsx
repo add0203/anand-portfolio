@@ -145,7 +145,8 @@ const Contact = () => {
    <br></br>
              <br></br>
              <br></br>
-           <button className = "button-52"
+           <button 
+{/*              className="button" */}
               style={{
                 backgroundColor: darkMode && "#333",
                 color: darkMode ? "white" : "black",
