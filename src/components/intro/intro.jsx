@@ -123,7 +123,8 @@ const Intro = () => {
                   backgroundColor: darkMode && "#333",
                   color: darkMode ? "white" : "black",
                 }}
-                className="cv-button"
+                className="button-52"
+{/*                 className="cv-button" */}
                 formTarget="new"
                 onClick={() => {
                   downloadFileAtURL(URL);
